@@ -1,0 +1,12 @@
+package stack;
+
+public class runner {
+
+	public static void main(String[] args) {
+		Stack stacker = new Stack(2);
+		stacker.push(3);
+		stacker.push(5);
+		stacker.push(4);
+		System.out.println(stacker.pop());
+	}
+}
